@@ -1,0 +1,275 @@
+
+body {
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #beffd1;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Set height of body and the document to 100% */
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink01 {
+    background-color: rgb(5, 67, 75);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    /* width: 9%; */
+  }
+  
+  .tablink01:hover {
+    background-color: rgb(4, 44, 51);
+  }
+  
+  
+  .tablink02 {
+    background-color: rgb(55, 226, 155);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    
+    /* width: 9%; */
+  }
+  
+  .tablink02:hover {
+    background-color: rgb(28, 179, 116);
+  }
+  
+  
+  .tablink03 {
+    background-color: rgb(4, 44, 27);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    
+    /* width: 9%; */
+  }
+  
+  .tablink03:hover {
+    background-color: rgb(2, 46, 13);
+  }
+  
+  
+  
+  
+  .tablink {
+    background-color: rgb(27, 126, 104);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    /* width: 9%; */
+  }
+  
+  .tablink:hover {
+    background-color: rgb(7, 80, 61);
+  }
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: rgb(14, 82, 36);
+    display: none;
+    padding: 30px 10px;
+    height: auto;
+  }
+  
+  #Home {background-color: red;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://lh3.googleusercontent.com/KFMWLs7UxcF_2UsARBc-wqf083-ybSRDkCuNxIF6u37AO9fInSt-cjVv77hLLzi2ycqKYleqfxsqE23Fko9KE4gan_PnYmteAEHjFF27ZeBfE1EwljDxRHuKpc2A5wPGhzMZHL8pdcXr-jL5cwdeVWsHa9pW8gXwE_aUoH2Jsjq3Q7p-eoMUdxFWSThYz2ioACXwEMxINxWo8xqwCQkqOXxGprFmxvTREmlAzPqiVlZZphAV9HadAYkl7PEK1f9KKZ7tcStSXtr0z8pO0ufgA_FE0AW_ApTTjYf4iux1M5rNDIrZ_DfptFXOh_lNJeJ2PBQ-9XchpAtAcHqZn5LgXhZ12OKKKoIPN5sNcz2WhvnfZNFRlkPjcCNIdPCOWzAZh-9YzvLEP7tydD2qZ24xd0mzXc5b-gbtEgLZU6QWecGJuQjDyHIwamTikEQn9mervPi2abqsNM707-Op7E8OYbBE9qIV5qVKqn4VNXpoTmKB7vKxvK44ZqVpsRqtx1-8fzH-WaJk8zprxcdmmTxmSs6Le8-AwB_3VOZQ-fQ_0B9JxuCuOKh3gt4ccM4P9jnea-74Y00AaOOGapdsXgBMm2m5xzokJR8YnO91idgAT-_JcQ15ndmrcC_2alMeCsd7tTAeZA8WdigoGvA7CpHHRxw12xUSiB2WMcI_eYpr4XyiImZ7BLAtWLkaGBa3bw=w734-h441-no?authuser=0) fixed center  ; */
+      }
+  #News {background-color: green;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  #ปฏิทินการใช้งานยานพาหนะ {background-color: blue;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  #เข้าขอใช้บริการยานพาหนะ {background-color: orange;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+      #ประวัติการใช้บริการยานพาหนะ {background-color: orange;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  
+  
+      #จัดการการออกใบชำระค่าบริการยานพาหนะ {background-color: red;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  #จัดการผู้ใช้งานระบบ {background-color: green;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #ebc4f5;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  
+      #จัดการยานพาหนะ {background-color: green;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #ebc4f5;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  
+  #จัดการประการเดินทาง {background-color: blue;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #ebc4f5;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  #ประเมินการใช้บริการยานพาหนะ {background-color: orange;
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+      #อื่นๆ {background-color: rgb(23, 110, 84);
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #d1f5d9;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  
+      #profile {background-color: rgb(23, 110, 84);
+    counter-reset: section;
+    text-align: center;
+    font-family: sans-serif;
+      background-color: #ebc4f5;
+      /* background: url(https://images7.alphacoders.com/555/thumb-1920-555558.jpg) fixed center  ; */
+      }
+  
+  
+      .dropbtn {
+        background-color: rgb(27, 126, 104);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+  
+  .dropbtn:hover {
+    background-color: rgb(7, 80, 61);
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #088d44;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(12, 132, 161);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(36, 185, 6);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  
+  
+  .dropdown01 {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown01-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown01-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown01-content a:hover {background-color: #ddd;}
+  
+  .dropdown01:hover .dropdown-content {display: block;}
+  
+  .dropdown01:hover .dropbtn {background-color: #3e8e41;}
+  
+  
+  
+  
